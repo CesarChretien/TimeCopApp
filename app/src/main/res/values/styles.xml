@@ -3,9 +3,40 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/holo_red_light</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Retro</item>
+        <item name="editTextStyle">@style/RetroEditTextView</item>
+        <item name="android:textViewStyle">@style/RetroTextView</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar.Retro</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Retro" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/retro_pixel_font</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Retro.Black" parent="TextAppearance.AppCompat.Retro">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="RetroTextView" parent="android:Widget.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Retro</item>
+    </style>
+
+    <style name="Widget.AppCompat.ActionBar.Retro" parent="Widget.AppCompat.ActionBar">
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Retro.Black</item>
+    </style>
+
+    <style name="RetroEditTextView" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/retro_pixel_font</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.AppCompat.Button.Retro" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/retro_pixel_font</item>
     </style>
 
 </resources>
