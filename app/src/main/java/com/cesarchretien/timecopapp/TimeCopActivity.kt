@@ -53,6 +53,7 @@ class TimeCopActivity : AppCompatActivity() {
             }, 50L)
         } else {
             stopwatch_text.postDelayed({
+                hasWarned.set(false)
                 setRemainingTime(end, end, warning)
                 stopwatch_text.setTextColor(Color.WHITE)
                 play(R.raw.smb_stage_clear)
