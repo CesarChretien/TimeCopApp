@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TimeCopApp</string>
-    <string name="time_minutes">Minutes</string>
+    <string name="time_minutes">Minuten</string>
     <string name="time_start">Start</string>
     <string name="time_reset">Reset</string>
 </resources>
