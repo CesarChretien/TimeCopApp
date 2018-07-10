@@ -1,14 +1,14 @@
 package com.cesarchretien.timecopapp
 
-import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_time_cop.*
-import java.util.concurrent.TimeUnit
-import android.media.MediaPlayer
 import android.graphics.Color
+import android.media.MediaPlayer
+import android.os.Bundle
 import android.support.annotation.RawRes
+import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import kotlinx.android.synthetic.main.activity_time_cop.*
 import java.io.IOException
+import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicBoolean
 
 
@@ -92,5 +92,4 @@ class TimeCopActivity : AppCompatActivity() {
             Log.e("Oops", ex.localizedMessage)
         }
     }
-
 }
